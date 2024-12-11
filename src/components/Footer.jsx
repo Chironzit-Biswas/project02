@@ -22,6 +22,7 @@ export const Footer = () => {
 
                         </div>
 
+
                         <div className={'border border-dashed m-[30px] rounded'}>
 
                         </div>
