@@ -3,6 +3,7 @@ export const Cards = () => {
 
 
 
+
     return (
         <>
 
@@ -16,6 +17,8 @@ export const Cards = () => {
                                <div>
                                    <p className={'font-light py-5 '}>{card.content}</p>
                                    <button className={'border-therd border-[1px] px-2 rounded'}>{card.button}</button>
+                                   <button></button>
+
                                </div>
 
                            </div>

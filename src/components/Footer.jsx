@@ -50,6 +50,7 @@ export const Footer = () => {
                             <li>Privacy Police</li>
                         </div>
 
+
                         <div>
                             <h2 className={'text-2xl mb-4'}>
                                 Contact Us
@@ -60,6 +61,9 @@ export const Footer = () => {
                         </div>
                     </div>
                 </div>
+
+                <h2 className={'text-center pt-2'}>Copyright © by Chironzit Biswas 2023 Digi Creative</h2>
+
             </div>
 
         </>

@@ -1,3 +1,5 @@
+import {Animation} from "../Animation.jsx";
+
 export const Home = () => {
     return (
     <>
@@ -9,14 +11,12 @@ export const Home = () => {
             </div>
 
             <div className={'w-full'}>
-                <h3 >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dicta dolorum molestias nobis
-                    reiciendis rerum veritatis. Aut officiis quam ratione!</h3>
+                <Animation />
             </div>
 
         </div>
 
-
-
+        
             <div className={'flex flex-row justify-center mt-[-50px] items-center  '}>
                 <div
                     className={'w-[473px] h-[113px] shadow-md shadow-black flex justify-center items-center gap-[50px]  '}>
