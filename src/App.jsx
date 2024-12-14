@@ -5,19 +5,20 @@ import {Footer} from "./components/Footer.jsx";
 import {Navbar} from "./components/Navbar.jsx";
 
 
-
 function App() {
 
-  return (
-    <div>
-       <Navbar />
-        <Home />
-        <Services />
-        <Feature />
-        <Footer />
+    return (
+        <div>
 
-    </div>
-  )
+            <Navbar/>
+            <Home/>
+            <Services/>
+            <Feature/>
+            <Footer/>
+
+
+        </div>
+    )
 }
 
 export default App

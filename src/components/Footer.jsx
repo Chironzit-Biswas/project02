@@ -1,4 +1,6 @@
-import { FaSearch } from "react-icons/fa";
+import {FaSearch} from "react-icons/fa";
+
+
 export const Footer = () => {
     return (
         <>
@@ -16,7 +18,8 @@ export const Footer = () => {
                                 <input type="text" placeholder={'Search '}
                                        className={'bg-whiteColor h-[20px] w-[393px] p-6 rounded-l-lg '}/>
                                 <div className={'gap-1 px-1 '}>
-                                    <button className={'py-1 items-center'}> <FaSearch className={' text-3xl text-whiteColor'}/></button>
+                                    <button className={'py-1 items-center'}><FaSearch
+                                        className={' text-3xl text-whiteColor'}/></button>
                                 </div>
                             </div>
 
@@ -29,8 +32,9 @@ export const Footer = () => {
                     </div>
                 </div>
                 <div
-                    className={'max-w-[1200px] flex md:flex-col p-[50px] mt-[-20px] bg-[#180D50] mx-auto border-therd border-2 z-30'}>
-                    <div className={'grid grid-cols-5 text-whiteColor content-center list-none font-light'}>
+                    className={'md:max-w-[1200px] flex flex-col p-[50px] mt-[-20px] bg-[#180D50] mx-auto border-therd border-2 z-30'}>
+                    <div
+                        className={'grid grid-cols-2 w-[600px] md:grid-cols-4 text-whiteColor content-between list-none font-light'}>
                         <div className={'col-span-2 w-1/2'}>
                             <h2 className={'text-2xl mb-4'}>DIGI Creative</h2>
                             <p>Get inspiration and creative ideas to beautify your design with our products </p>
@@ -42,8 +46,8 @@ export const Footer = () => {
                             <li>Software Pro</li>
                             <li>Video Pro</li>
                         </div>
-                        <div>
-                            <h2 className={'text-2xl mb-4'}>Support</h2>
+                        <div className={''}>
+                            <h2 className={'text-2xl  mb-4'}>Support</h2>
                             <li>Help</li>
                             <li>Call Center</li>
                             <li>Team Of Service</li>
@@ -51,7 +55,7 @@ export const Footer = () => {
                         </div>
 
 
-                        <div>
+                        <div className={''}>
                             <h2 className={'text-2xl mb-4'}>
                                 Contact Us
                             </h2>
@@ -61,6 +65,7 @@ export const Footer = () => {
                         </div>
                     </div>
                 </div>
+
 
                 <h2 className={'text-center pt-2'}>Copyright © by Chironzit Biswas 2023 Digi Creative</h2>
 
