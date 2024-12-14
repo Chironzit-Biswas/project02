@@ -40,7 +40,9 @@ export const Home = () => {
                     </div>
                 </div>
             </div>
-
+            <div>
+                <input type="text" name="" id="" placeholder={'Enter Your Name'}/>
+            </div>
 
         </>
     )
